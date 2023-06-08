@@ -1,0 +1,85 @@
+name: pysense
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.
+  - pip>=20
+  - ipykernel # <6.21 # until https://github.com/dask/distributed/issues/7515 is solved
+  - ipywidgets #  ipywidgets here and jupyterlab_widgets in jupyterlab env
+  - ipyleaflet
+  - adlfs
+  - awscli
+  - azure-data-tables
+  - boto3
+  - cartopy
+  - cfgrib
+  - click
+  - dask-cloudprovider
+  - azure-identity
+  - dask=2023.2.0 # until this is fixed https://stackoverflow.com/questions/75621940/dask-distributed-problem-shuffle-transfer-failed-during-shuffle
+  - distributed=2023.2.0 # until this is fixed https://stackoverflow.com/questions/75621940/dask-distributed-problem-shuffle-transfer-failed-during-shuffle
+  - dask-geopandas
+  - dask-ml
+  - dask-gateway
+  - datacube
+  - datashader
+  - descartes
+  - eccodes>=2.24.2
+  - earthengine-api
+  - folium
+  - fsspec
+  - gcsfs
+  - geopandas>=0.11.0
+  - geoviews-core
+  - h5netcdf
+  - h5py
+  - holoviews
+  - hvplot
+  - intake
+  - intake-esm
+  - intake-geopandas
+  - intake-stac
+  - intake-xarray
+  - matplotlib-base
+  - numpy
+  - panel
+  - param
+  - pandas
+  - planetary-computer
+  - pyarrow #=10 # check if higher versions still bring cudatoolkit - first test seems OK.
+  - pyogrio
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - seaborn
+  - stac-vrt
+  - stac-geoparquet
+  - stackstac
+  - zarr
+  - numcodecs
+  - s3fs
+  - rasterio
+  - mapclassify
+  - rioxarray
+  - bandit
+  - isort
+  - black
+  - zarr
+  - h5py
+  - fiona
+  - geojson
+  - spatialpandas
+  - astropy
+  - python-dotenv
+  - pydantic
+  - xarray-spatial
+  - beautifulsoup4
+  - lxml
+  - pooch
+  - tqdm
+  - h3
+  - pyyaml
+  - contextily
+  - tabulate # pprint for markdown tables
+  - opencv
