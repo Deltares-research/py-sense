@@ -43,6 +43,7 @@ dependencies:
   - intake-xarray
   - matplotlib-base
   - numpy
+  - odc-stac
   - panel
   - param
   - pandas
@@ -84,3 +85,5 @@ dependencies:
   - tabulate # pprint for markdown tables
   - opencv
   - odc_stac
+  - pip:
+    - geemap[all]
