@@ -83,4 +83,4 @@ dependencies:
   - contextily
   - tabulate # pprint for markdown tables
   - opencv
-  - odc_stac
+  - odc-stac
