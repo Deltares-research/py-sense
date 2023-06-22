@@ -86,6 +86,6 @@ dependencies:
   - contextily
   - tabulate # pprint for markdown tables
   - opencv
+  - odc-stac
   - pip:
     - geemap[all]
-    - odc-stac
