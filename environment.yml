@@ -2,12 +2,14 @@ name: pysense
 channels:
   - conda-forge
   - defaults
+  - pyviz
 dependencies:
   - python=3.
   - pip>=20
   - ipykernel # <6.21 # until https://github.com/dask/distributed/issues/7515 is solved
   - ipywidgets #  ipywidgets here and jupyterlab_widgets in jupyterlab env
   - ipyleaflet
+  - bokeh
   - adlfs
   - awscli
   - azure-data-tables
@@ -41,9 +43,9 @@ dependencies:
   - intake-geopandas
   - intake-stac
   - intake-xarray
+  - ipywidgets
   - matplotlib-base
   - numpy
-  - odc-stac
   - panel
   - param
   - pandas
@@ -84,6 +86,6 @@ dependencies:
   - contextily
   - tabulate # pprint for markdown tables
   - opencv
-  - odc_stac
   - pip:
     - geemap[all]
+    - odc-stac

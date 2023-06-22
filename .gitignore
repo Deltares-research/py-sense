@@ -137,3 +137,6 @@ notebooks/tmp
 
 # don't output from running on cluster
 *.o[0-9]*
+
+**/data/*
+notebooks/data.zip
