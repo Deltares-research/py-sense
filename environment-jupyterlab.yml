@@ -11,6 +11,7 @@ dependencies:
   - certifi
   - openssl
   - jupyterlab
+  - jupyter_bokeh
   - nodejs
   - panel # needs to be in base to connect to widgets, not sure iff it has to be from pyviz channel
   - nb_conda_kernels
