@@ -87,5 +87,3 @@ dependencies:
   - tabulate # pprint for markdown tables
   - opencv
   - odc-stac
-  - pip:
-    - geemap[all]
