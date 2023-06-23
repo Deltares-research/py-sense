@@ -132,7 +132,7 @@ tutorials.
    mamba env create -n testenv -f environment-jupyterlab.yml
    ``` 
 
-### Running the tutorial notebooks 
+## Running the tutorial notebooks 
 Now that you have access to the code (cloning this Github repository), installed a
 package manager and created your environments we can start running the notebooks in
 Jupyterlab. If you are new to JupyterLab we encourage you to have a look at [this
