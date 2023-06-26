@@ -139,4 +139,4 @@ notebooks/tmp
 *.o[0-9]*
 
 **/data/*
-notebooks/data.zip
+**/tmp/*
