@@ -10,6 +10,7 @@ dependencies:
   - ipywidgets #  ipywidgets here and jupyterlab_widgets in jupyterlab env
   - ipyleaflet
   - bokeh
+  - black
   - adlfs
   - awscli
   - azure-data-tables
@@ -44,6 +45,8 @@ dependencies:
   - intake-stac
   - intake-xarray
   - ipywidgets
+  - jupyterlab
+  - jupyter_bokeh
   - matplotlib-base
   - numpy
   - panel
