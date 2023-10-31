@@ -45,6 +45,7 @@ dependencies:
   - intake-stac
   - intake-xarray
   - ipywidgets
+  - jupyter 
   - jupyterlab
   - jupyter_bokeh
   - matplotlib-base
