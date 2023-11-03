@@ -47,7 +47,7 @@ dependencies:
   - ipywidgets
   - jupyter 
   - jupyterlab
-  - jupyter_bokeh
+  - jupyter_bokeh=3.0.5
   - matplotlib-base
   - numpy
   - panel
